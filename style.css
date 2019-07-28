@@ -1,0 +1,503 @@
+* {
+    font-family:  url(../fonts/GothaProMed.otf), 
+                  url(../fonts/GothaProNarBol.otf)
+}
+
+/* Хідер - позиціонування та деталізація */
+
+.nav {
+    display: flex;
+    padding:15px;
+    background:#ffdc00;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.nav-black-word {
+    font-weight:bold;
+}
+
+.nav-logo-word {
+    font-weight: 200;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.nav-small-word {
+    color:#6f6f6f;
+    font-size: 1em;
+}
+
+.nav-recall {
+height:40px;
+width: 200px;
+font-size: 1em;
+background: #303030;
+color:white;
+border-radius: 10px;
+transition: all 0.5s linear;
+}
+
+.nav-call-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.yellow-text {
+  color: #ffdc00;
+  font-size: 1.2em;
+  font-weight:bold;
+  text-align: center;
+}
+
+.yellow-text1 {
+  color: #ffdc00;
+  font-size: 1em;
+}
+
+.white-text {
+  color: white;
+  font-size: 1.2em;
+}
+.white-text1 {
+  color: white;
+  font-size: 1em;
+}
+
+.yellow-text2 {
+  color: #ffdc00;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.black-text2 {
+    color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.grey-text {
+  color: grey;
+  font-size: 1em;
+  font-style: italic;
+  text-align: left;
+}
+
+/* JUMBOTRON START */
+
+.jumbotron .lead {
+    color: red;
+}
+
+.jumbotron.h1 {
+    font-size: 2em;
+    color: white;
+}
+
+.jumbotron.p {
+    font: 12px;
+}
+
+.jumbotron.customized {
+    background-color: transparent;
+}
+
+.wrapper {
+    background-image: url(img/garage_main.jpg); 
+  }
+
+.body{
+	text-align: center;
+	background: #ffdd00;
+    font-weight: 100;
+}
+
+.order {
+  height:50px;
+  width: 200px;
+  font-size: 1.2em;
+  font-style: inherit;
+  background: #ffdc00;
+  color:black;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+  text-transform: uppercase;
+}
+/* JUMBOTRON END */
+
+
+/* timer beginning  */
+.timerWrapper {
+    width: 350px;
+  }
+  
+  #clockdiv {
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      font-weight: 100;
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  .divider {
+    color: #000000;
+    opacity: 0.7
+    font-weight: bold;
+    font-size: 56px;
+    margin: auto 0;
+  }
+  
+  .dot-container {
+    margin: auto 5px;
+    height: 50px;
+      display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    background-color: #000000;
+    opacity: 0.9;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .template {
+      border-radius: 15px;
+      background: #000000;
+    opacity: 0.9;
+      display: inline-block;
+  }
+  
+  #clockdiv .template > span {
+      padding: 15px;
+      border-radius: 15px;
+      background: #000000;
+    opacity: 0.9;
+      display: inline-block;
+  }
+  
+  .smalltext{
+      padding-top: 15px;
+      font-size: 16px;
+  }
+/* timer end */
+
+
+/* Mirror and price on right side */
+.col-4 .mirror {
+  position: relative;
+  top: 150px;
+ }
+
+.col-4 .price {
+  position: relative;
+  top:200px;
+  margin-left:160px;
+  }
+  
+/* Middle line of the blocks */
+.centeredRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+
+
+ 
+
+/* Yellow line under blocks */
+.yellow-line {
+    width:15%;
+    margin:0 auto;
+    background:#ffdc00;
+    border:none;
+    color:#ffdc00;
+    height:1px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+  margin-top: 0px;
+}
+.characteristics h4 {
+  color: #000;
+  text-align: left;
+}
+
+.params {
+  padding: 0;
+}
+
+.params li {
+  list-style-type: none;
+  margin-top: 20px;
+  color: grey;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.params li::before {
+  content: "- ";
+}
+
+
+.col {
+  min-height: 50px;
+}
+
+.col2 {
+  flex-basis: 470px;
+  max-width: 470px;
+}
+
+.col3 {
+  flex-basis: 330px;
+  max-width: 330px;
+}
+
+.col4 {
+  flex-basis: 245px;
+  max-width: 245px;
+}
+
+.col3_4 {
+  flex-basis: 555px;
+  max-width: 1200px;
+}
+
+
+
+.row {
+  text-align: left;
+  margin-top: 2em;
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+
+}
+
+.econom h3, .econom h4{
+  text-transform: uppercase;
+  margin: 0.7em;
+  letter-spacing: 0.05em;
+}
+
+.econom h4{
+  font-size: 1em;
+}
+
+.econom h3{
+  font-weight: 1000;
+  font-size: 1em;
+}
+
+.econom h3 span{
+  color:#ffdc00;
+}
+
+
+/* feedback */
+
+.feedback-block {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+    
+.feedback-block-top {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.feedback-arrow{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-arrow img {
+  height: 50%;
+}
+
+.feedback-arrow {
+  display: none;
+}
+
+.mob-arrow {
+  display: flex;
+}
+
+.feedback-arrow:first-child {
+  transform: rotate(180deg);
+}
+
+.feedback-main {
+  display: flex;
+  height: 100%;
+}
+
+.feedback-main-left  {
+  width:30%;
+  height:100%;
+}
+
+.feedback-img {
+  display: flex;
+  width: 80%;
+  height: 100%; 
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.feedback-img img {
+  width: 100%;
+  outline: 3px solid #ffdc00;
+}
+
+.feedback-page {
+  width:100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-page-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.feedback-page-list li {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  margin:0 5px 0 5px;
+  border-radius: 50%;
+  background: #ffdc00;
+  border: 3px solid black;
+}
+
+.feedback-page-list li:last-child {
+  border:3px solid #ffdc00;
+}
+
+.feedback-main-right {   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color:#303030;
+  font-weight: 300;
+  width:70%;
+  height:100%;
+} 
+
+.feedback-block-bottom {
+  display: flex;
+  justify-content: right;
+  width:100%;
+}
+
+.feedback-block-bottom div {
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  margin-top: 0px;
+} 
+
+
+/* Warranty */
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 2%;
+    color:#303030;
+    list-style-type: disc;
+    font-size: 16px;
+}
+
+.txt_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sale-block {
+  display: flex;
+  justify-content: center;
+}
+
+.sale-block-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sale-block-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form form input {
+  margin-top: 20px;
+  height: 50px;
+  width:300px;
+  font-size: 14px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border:1px solid black;
+}
+
+.footer {
+  height: 150px;
+  width: 100%;
+  background: #303030;
+}
+
+@media only screen and (max-width: 500px) {
+  .mobile_makeFirst {
+   order: -1;
+  }
+ }
