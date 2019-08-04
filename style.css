@@ -197,12 +197,17 @@ transition: all 0.5s linear;
 .col-4 .mirror {
   position: relative;
   top: 150px;
+  display: flex;
+  align-items: center;
+  display: block;
  }
 
 .col-4 .price {
   position: relative;
   top:200px;
   margin-left:160px;
+  display: flex;
+  align-items: center;
   }
   
 /* Middle line of the blocks */
@@ -212,7 +217,8 @@ transition: all 0.5s linear;
     justify-content: center;
     align-items: center;
     width:100%;
-  }
+    margin-top: 50px;
+    }
 
 
  
@@ -235,7 +241,6 @@ transition: all 0.5s linear;
   justify-content: space-between;
   align-items: flex-start;
   margin: auto;
-  margin-top: 0px;
 }
 .characteristics h4 {
   color: #000;
